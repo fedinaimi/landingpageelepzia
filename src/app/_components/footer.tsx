@@ -57,7 +57,7 @@ export const Footer = () => {
                             Experience the best of the future now!
                         </p>
                         <Link
-                            href='/'
+                            href='/get-started'
                             className='inline-block px-6 sm:px-10 py-2.5 sm:py-3 bg-[#007bff] rounded-xl shadow-[inset_2px_2px_4px_0px_rgba(255,255,255,0.25)] border-2 border-[#007bff]/30 text-white text-sm sm:text-base hover:bg-[#007bff]/90 transition-colors'>
                             Get started
                         </Link>

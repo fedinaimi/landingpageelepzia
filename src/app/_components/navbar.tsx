@@ -59,8 +59,6 @@ function NavLinks() {
     const links = [
         { name: 'Home', href: 'home' },
         { name: 'Episafe', href: 'episafe' },
-        { name: 'Milestones', href: 'roadmap' },
-
         { name: 'Team', href: 'team' },
         { name: 'Experts', href: 'experts' },
         { name: 'Contact', href: 'contact' }
@@ -110,8 +108,6 @@ function MobileDrawer({
     const links = [
         { name: 'Home', href: 'home' },
         { name: 'Episafe', href: 'episafe' },
-        { name: 'Milestones', href: 'roadmap' },
-
         { name: 'Team', href: 'team' },
         { name: 'Experts', href: 'experts' },
         { name: 'Contact', href: 'contact' }
