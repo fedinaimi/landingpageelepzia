@@ -9,7 +9,7 @@ import { SectionWrapper } from '../SectionWrapper';
 const teamMembers = [
     { 
         name: 'Khalil Azzabi', 
-        role: 'CEO & Co-founder', 
+        role: 'CEO', 
         description: 'Visionary leader and tech enthusiast', 
         image: '/images/khalil.jpg', 
         email: 'khalil.azzabi@elepzia.tn', 
@@ -17,7 +17,7 @@ const teamMembers = [
     },
     { 
         name: 'Fedi Naimi', 
-        role: 'COO & Co-founder', 
+        role: 'COO', 
         description: 'Expert in strategic planning and execution', 
         image: '/images/fedi.jpg', 
         email: 'fedi.naimi@elepzia.tn', 
@@ -25,15 +25,15 @@ const teamMembers = [
     },
     { 
         name: 'Jihed Ben Salah', 
-        role: 'CTO & Co-founder', 
+        role: 'CTO', 
         description: 'Tech innovator and system architect', 
-        image: '/images/jihed.jpg', 
+        image: '/images/jihed.png', 
         email: 'jihed.bensalah@elepzia.tn', 
         group: 'founders' 
     },
     { 
         name: 'Amir Ben Arbia', 
-        role: 'IoT Lead & Co-founder', 
+        role: 'IoT Lead', 
         description: 'IoT specialist and solution developer', 
         image: '/images/amir.jpg', 
         email: 'amir.benarbia@elepzia.tn', 
@@ -87,7 +87,7 @@ const TeamSection = () => {
                     className="px-8 py-3 bg-gradient-to-r from-white/5 to-white/2 rounded-[88px] border border-white/10 backdrop-blur-lg"
                 >
                     <div className="text-center text-white text-base font-light font-['Outfit']">
-                        Meet Our Team
+                        Elepzia Founders
                     </div>
                 </motion.div>
                 <motion.h2

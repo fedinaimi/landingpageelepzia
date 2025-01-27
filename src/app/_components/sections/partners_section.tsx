@@ -35,7 +35,7 @@ const PartnersSection = () => {
                     transition={{ duration: 0.6, delay: 0.2 }}
                     className='flex flex-wrap justify-center items-center gap-4 sm:gap-6 md:gap-8'
                 >
-                    {['Charles Nicolles', 'MIT', 'Nvidia Inception'].map((partner) => (
+                    {['Charles Nicolles','Elgazala Incubator', 'Nvidia Inception'].map((partner) => (
                         <div
                             key={partner}
                             className="text-transparent bg-clip-text bg-gradient-to-r from-[#F38E79] via-[#FFEB9E] to-[#B2CFF8] text-2xl sm:text-3xl md:text-[40px] font-normal font-['Outfit'] leading-tight sm:leading-[48px] text-center px-2 sm:px-4"
@@ -52,7 +52,7 @@ const PartnersSection = () => {
                     transition={{ duration: 0.6, delay: 0.4 }}
                     className='flex flex-wrap justify-center items-center gap-4 sm:gap-6 md:gap-8'
                 >
-                    {['Fab Lab', 'Winwin', 'Orange'].map((partner) => (
+                    {['Fab Lab', 'Winwin Club', 'Orange'].map((partner) => (
                         <div
                             key={partner}
                             className="text-transparent bg-clip-text bg-gradient-to-r from-[#F38E79] via-[#FFEB9E] to-[#B2CFF8] text-2xl sm:text-3xl md:text-[40px] font-normal font-['Outfit'] leading-tight sm:leading-[48px] text-center px-2 sm:px-4"
